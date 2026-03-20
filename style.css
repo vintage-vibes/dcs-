@@ -92,6 +92,10 @@ header::before{
 .nav-links a:hover::before{
     width: 100%;
 }
+.nav-links a:hover{
+   
+    color: #e7c342;
+}
 .mobile{
     display: none;
 }
@@ -144,7 +148,7 @@ header h1{
     text-decoration: none;
     padding: 12px 35px;
     border: 2px solid #e7c342 ;
-    color: #fff;
+    color: #e7c342;
     font-size: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
