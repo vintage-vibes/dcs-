@@ -1014,6 +1014,7 @@ img:hover{
     background-color: #af8901; /* gold accent */
     border-color: #af8901;
     transform: translateY(-4px);
+    color:#fff;
 }
 
 /* BOTTOM BAR */
