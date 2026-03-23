@@ -93,7 +93,7 @@ imgslider.addEventListener('mouseleave', () => {
   imgslider.addEventListener('touchmove', (e) => {
     if (!isDown) return;
     const x = e.touches[0].pageX - imgslider.offsetLeft;
-    const walk = (x - startX) * 1.6;
+    const walk = (x - startX) * 1.8;
     imgslider.scrollLeft = scrollLeft - walk;
   });
 
